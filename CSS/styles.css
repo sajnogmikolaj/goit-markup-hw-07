@@ -1,0 +1,391 @@
+a{
+    text-decoration: none;
+}
+.web {
+    color:#2196F3;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+
+}
+.mainlogo {
+    color: #000000;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+}
+.agencja {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color:#212121;
+}
+.agencja:hover{
+    color: #2196F3;
+}
+.portfolio {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: #212121;
+}
+.portfolio:hover {
+    color: #2196F3;
+}
+.kontakt {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: #212121;
+}
+.kontakt:hover {
+    color: #2196F3;
+}
+.mail {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color:#757575;
+}
+.mail:hover,
+.mail2:hover {
+    color:#2196F3;
+}
+.tel {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color:#757575;
+}
+.tel:hover,
+.tel2:hover {
+    color:#2196F3;
+}
+.main_text {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+        color:#FFFFFF;
+}
+.button {
+    width:200px;
+    height:50px;
+    background-color: #2196F3;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        color:#FFFFFF;
+        border:none;
+        cursor:pointer;
+}
+.text_title {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        color:#212121;
+}
+.text {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color:#757575;
+}
+.topic1 {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        color:#212121;
+}
+.bg1 {
+    background-color:#2F303A;
+    width:1600px;
+    height:600px;
+}
+.our_team {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        color:#212121;
+}
+.member_text {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color:#212121;
+}
+.member_job {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color:#212121;
+}
+.footer {
+    background-color:#2F303A;
+    width: 1600px;
+    height: 252px;
+}
+.adress {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color:#FFFFFF;
+}
+.adress:hover {
+    color:#2196F3;
+}
+.mail2{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #FFFFFF99;
+}
+.tel2 {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color:#FFFFFF99;
+}
+
+
+
+
+
+
+
+
+
+
+.btn_wszystkie {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        color:#000000;
+        border:none;
+        cursor:pointer;
+}
+.btn_strony {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        color:#000000;
+        border:none;
+        cursor:pointer;
+}
+.btn_aplikacje {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        color:#000000;
+        border:none;
+        cursor:pointer;
+}
+.btn_dizajn {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        color:#000000;
+        border:none;
+        cursor:pointer;
+}
+.btn_marketing {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        color:#000000;
+        border:none;
+        cursor:pointer;
+}
+.btn_wszystkie:hover,
+.btn_strony:hover,
+.btn_aplikacje:hover,
+.btn_dizajn:hover,
+.btn_marketing:hover {
+    background-color:#2196F3;
+    color:#ffffff;
+}
+.project1 {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 36px;
+        color:#212121;
+}
+.p_text1 {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 36px;
+        color:#757575;
+}
+.project2 {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 36px;
+        color:#212121;
+}
+.p_text2 {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 36px;
+        color:#757575;
+}
+.project3 {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 36px;
+        color:#212121
+}
+.p_text3 {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 36px;
+        color:#757575;
+}
+.project4 {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 36px;
+        color:#212121;
+}
+.p_text4 {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 36px;
+        color: #757575;
+}
+.project5 {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 36px;
+        color: #212121;
+}
+.p_text5 {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 36px;
+        color: #757575;
+}
+.project6 {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 36px;
+        color: #212121;
+}
+.p_text6 {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 36px;
+        color: #757575;
+}
+.project7 {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 36px;
+        color: #212121;
+}
+.p_text7 {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 36px;
+        color: #757575
+}
+.project8 {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 36px;
+        color: #212121;
+}
+.p_text8 {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 36px;
+        color: #757575;
+}
+.project9 {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 36px;
+        color: #212121;
+}
+.p_text9 {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 36px;
+        color: #757575;
+}
