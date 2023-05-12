@@ -1,1 +1,1 @@
-https://sajnogmikolaj.github.io/goit-markup-hw-01/
+https://sajnogmikolaj.github.io/goit-markup-hw-02/
