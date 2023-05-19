@@ -3,7 +3,8 @@
     --mainFontFamily: 'Roboto';
 }
 body {
-    color:var(--mainFontColor);
+    font-family:'Roboto';
+    font-weight: 500;
 }
 
 .web {
@@ -28,8 +29,6 @@ body {
     text-decoration: none;
 }
 .agencja {
-        font-family: 'Roboto';
-        font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
         text-decoration: none;
@@ -39,8 +38,6 @@ body {
     color: #2196F3;
 }
 .portfolio {
-    font-family: 'Roboto';
-        font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
         color: #212121;
@@ -50,8 +47,6 @@ body {
     color: #2196F3;
 }
 .kontakt {
-    font-family: 'Roboto';
-        font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
         color: #212121;
@@ -61,8 +56,6 @@ body {
     color: #2196F3;
 }
 .mail {
-    font-family: 'Roboto';
-        font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
         color:#757575;
@@ -73,9 +66,6 @@ body {
     color:#2196F3;
 }
 .tel {
-    font-family: 'Roboto';
-
-        font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
         color:#757575;
@@ -86,7 +76,6 @@ body {
     color:#2196F3;
 }
 .main_text {
-    font-family: 'Roboto';
         font-weight: 900;
         font-size: 44px;
         line-height: 1.14;
@@ -96,7 +85,6 @@ body {
     width:200px;
     height:50px;
     background-color: #2196F3;
-    font-family: 'Roboto';
         font-weight: 700;
         font-size: 16px;
         color:#FFFFFF;
@@ -104,20 +92,17 @@ body {
         cursor:pointer;
 }
 .text_title {
-    font-family: 'Roboto';
         font-weight: 700;
         font-size: 16px;
         color:#212121;
 }
 .text {
-    font-family: 'Roboto';
         font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
         color:#757575;
 }
 .topic1 {
-    font-family: 'Roboto';
         font-weight: 700;
         font-size: 36px;
         line-height: 1.16;
@@ -127,21 +112,17 @@ body {
     background-color:#2F303A;
 }
 .our_team {
-    font-family: 'Roboto';
         font-weight: 700;
         font-size: 36px;
         line-height: 1.16;
         color:#212121;
 }
 .member_text {
-    font-family: 'Roboto';
-        font-weight: 500;
         font-size: 16px;
         line-height: 1.18;
         color:#212121;
 }
 .member_job {
-    font-family: 'Roboto';
         font-weight: 400;
         font-size: 16px;
         line-height: 1.18;
@@ -152,18 +133,17 @@ body {
 }
 
 .adress {
-    font-family: 'Roboto';
         font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
         color:#FFFFFF;
         text-decoration: none;
+        font-style:normal;
 }
 .adress:hover {
     color:#2196F3;
 }
 .mail2{
-    font-family: 'Roboto';
         font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
@@ -171,7 +151,6 @@ body {
         text-decoration: none;
 }
 .tel2 {
-    font-family: 'Roboto';
         font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
@@ -189,8 +168,6 @@ body {
 
 
 .btn_wszystkie {
-    font-family: 'Roboto';
-        font-weight: 500;
         font-size: 16px;
         line-height: 1.62;
         color:#000000;
@@ -200,8 +177,6 @@ body {
 border-radius: 4px;
 }
 .btn_strony {
-    font-family: 'Roboto';
-        font-weight: 500;
         font-size: 16px;
         line-height: 1.62;
         color:#000000;
@@ -211,8 +186,6 @@ border-radius: 4px;
 border-radius: 4px;
 }
 .btn_aplikacje {
-    font-family: 'Roboto';
-        font-weight: 500;
         font-size: 16px;
         line-height: 1.62;
         color:#000000;
@@ -222,8 +195,6 @@ border-radius: 4px;
 border-radius: 4px;
 }
 .btn_dizajn {
-    font-family: 'Roboto';
-        font-weight: 500;
         font-size: 16px;
         line-height: 1.62;
         color:#000000;
@@ -233,8 +204,6 @@ border-radius: 4px;
 border-radius: 4px;
 }
 .btn_marketing {
-    font-family: 'Roboto';
-        font-weight: 500;
         font-size: 16px;
         line-height: 1.62;
         color:#000000;
@@ -251,129 +220,15 @@ border-radius: 4px;
     background-color:#2196F3;
     color:#ffffff;
 }
-.project1 {
-    font-family: 'Roboto';
+.project {
         font-weight: 700;
         font-size: 18px;
         line-height: 2.0;
         color:#212121;
 }
-.p_text1 {
-    font-family: 'Roboto';
+.p_text {
         font-weight: 700;
         font-size: 18px;
         line-height: 2.0;
         color:#757575;
-}
-.project2 {
-    font-family: 'Roboto';
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 2.0;
-        color:#212121;
-}
-.p_text2 {
-    font-family: 'Roboto';
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 2.0;
-        color:#757575;
-}
-.project3 {
-    font-family: 'Roboto';
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 2.0;
-        color:#212121
-}
-.p_text3 {
-    font-family: 'Roboto';
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 2.0;
-        color:#757575;
-}
-.project4 {
-    font-family: 'Roboto';
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 2.0;
-        color:#212121;
-}
-.p_text4 {
-    font-family: 'Roboto';
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 2.0;
-        color: #757575;
-}
-.project5 {
-    font-family: 'Roboto';
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 2.0;
-        color: #212121;
-}
-.p_text5 {
-    font-family: 'Roboto';
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 2.0;
-        color: #757575;
-}
-.project6 {
-    font-family: 'Roboto';
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 2.0;
-        color: #212121;
-}
-.p_text6 {
-    font-family: 'Roboto';
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 2.0;
-        color: #757575;
-}
-.project7 {
-    font-family: 'Roboto';
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 2.0;
-        color: #212121;
-}
-.p_text7 {
-    font-family: 'Roboto';
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 2.0;
-        color: #757575
-}
-.project8 {
-    font-family: 'Roboto';
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 2.0;
-        color: #212121;
-}
-.p_text8 {
-    font-family: 'Roboto';
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 2.0;
-        color: #757575;
-}
-.project9 {
-    font-family: 'Roboto';
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 2.0;
-        color: #212121;
-}
-.p_text9 {
-    font-family: 'Roboto';
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 2.0;
-        color: #757575;
 }
