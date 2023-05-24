@@ -1,199 +1,232 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
 :root {
-    --mainFontColor: #212121;
-    --mainFontFamily: 'Roboto';
+	--mainFontColor: #212121;
+	--mainFontFamily: "Roboto";
 }
 body {
-    font-family:'Roboto';
-    font-weight: 500;
+	font-family: "Roboto";
+	font-weight: 500;
 }
+.links-top-box {
+	display: flex;
 
+	width: 1600px;
+	height: 80px;
+	left: 0px;
+	top: 0px;
+	flex-basis: auto;
+	box-sizing: border-box;
+}
+.links-top1 {
+	display: flex;
+	flex-direction: row;
+
+	width: 53px;
+	height: 16px;
+	left: 453px;
+	top: 32px;
+	letter-spacing: 0.02em;
+	gap: 20px;
+}
+.links-top2 {
+
+	width: 135px;
+	height: 16px;
+	left: 1078px;
+	top: 32px;
+}
+.button-bg {
+	display: flex;
+	margin: 10px;
+}
 .web {
-    color:#2196F3;
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-
+	color: #2196f3;
+	font-family: "Raleway";
+	font-weight: 700;
+	font-size: 26px;
 }
 .mainlogo {
-    color: #000000;
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    text-decoration: none;
+	color: #000000;
+	font-family: "Raleway";
+	font-weight: 700;
+	font-size: 26px;
+	text-decoration: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	width: 145px;
+	height: 31px;
+	left: 215px;
+	top: 24px;
 }
 .mainlogo2 {
-    color: #ffffff;
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    text-decoration: none;
+	color: #ffffff;
+	font-family: "Raleway";
+	font-weight: 700;
+	font-size: 26px;
+	text-decoration: none;
 }
 .agencja {
-        font-size: 14px;
-        line-height: 1.14;
-        text-decoration: none;
-        color:#212121
+	font-size: 14px;
+	line-height: 1.14;
+	text-decoration: none;
+	color: #212121;
 }
-.agencja:hover{
-    color: #2196F3;
+.agencja:hover {
+	color: #2196f3;
 }
 .portfolio {
-        font-size: 14px;
-        line-height: 1.14;
-        color: #212121;
-        text-decoration: none;
+	font-size: 14px;
+	line-height: 1.14;
+	color: #212121;
+	text-decoration: none;
 }
 .portfolio:hover {
-    color: #2196F3;
+	color: #2196f3;
 }
 .kontakt {
-        font-size: 14px;
-        line-height: 1.14;
-        color: #212121;
-        text-decoration: none;
+	font-size: 14px;
+	line-height: 1.14;
+	color: #212121;
+	text-decoration: none;
 }
 .kontakt:hover {
-    color: #2196F3;
+	color: #2196f3;
 }
 .mail {
-        font-size: 14px;
-        line-height: 1.14;
-        color:#757575;
-        text-decoration: none;
+	font-size: 14px;
+	line-height: 1.14;
+	color: #757575;
+	text-decoration: none;
 }
 .mail:hover,
 .mail2:hover {
-    color:#2196F3;
+	color: #2196f3;
 }
 .tel {
-        font-size: 14px;
-        line-height: 1.14;
-        color:#757575;
-        text-decoration: none;
+	font-size: 14px;
+	line-height: 1.14;
+	color: #757575;
+	text-decoration: none;
 }
 .tel:hover,
 .tel2:hover {
-    color:#2196F3;
+	color: #2196f3;
 }
 .main_text {
-        font-weight: 900;
-        font-size: 44px;
-        line-height: 1.14;
-        color:#FFFFFF;
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.14;
+	color: #ffffff;
 }
 .button {
-    width:200px;
-    height:50px;
-    background-color: #2196F3;
-        font-weight: 700;
-        font-size: 16px;
-        color:#FFFFFF;
-        border:none;
-        cursor:pointer;
+	width: 200px;
+	height: 50px;
+	background-color: #2196f3;
+	font-weight: 700;
+	font-size: 16px;
+	color: #ffffff;
+	border: none;
+	cursor: pointer;
 }
 .text_title {
-        font-weight: 700;
-        font-size: 16px;
-        color:#212121;
+	font-weight: 700;
+	font-size: 16px;
+	color: #212121;
 }
 .text {
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.71;
-        color:#757575;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	color: #757575;
 }
 .topic1 {
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.16;
-        color:#212121;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.16;
+	color: #212121;
 }
 .bg1 {
-    background-color:#2F303A;
+	background-color: #2f303a;
 }
 .our_team {
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.16;
-        color:#212121;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.16;
+	color: #212121;
 }
 .member_text {
-        font-size: 16px;
-        line-height: 1.18;
-        color:#212121;
+	font-size: 16px;
+	line-height: 1.18;
+	color: #212121;
 }
 .member_job {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.18;
-        color:#212121;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.18;
+	color: #212121;
 }
 .footer {
-    background-color:#2F303A;  
+	background-color: #2f303a;
 }
 
 .adress {
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.71;
-        color:#FFFFFF;
-        text-decoration: none;
-        font-style:normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	color: #ffffff;
+	text-decoration: none;
+	font-style: normal;
 }
 .adress:hover {
-    color:#2196F3;
+	color: #2196f3;
 }
-.mail2{
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.71;
-        color: #FFFFFF99;
-        text-decoration: none;
+.mail2 {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	color: #ffffff99;
+	text-decoration: none;
 }
 .tel2 {
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.71;
-        color:#FFFFFF99;
-        text-decoration: none;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	color: #ffffff99;
+	text-decoration: none;
 }
 
-
-
-
-
-
-
-
-
-
 .btn_portfolio {
-        font-size: 16px;
-        line-height: 1.62;
-        color:#000000;
-        border:none;
-        cursor:pointer;
-        font-family:'Roboto';
-        font-weight:500;
+	font-size: 16px;
+	line-height: 1.62;
+	color: #000000;
+	border: none;
+	cursor: pointer;
+	font-family: "Roboto";
+	font-weight: 500;
 }
 
 .btn_portfolio:hover,
-.btn_portfolio:focus
- {
-    background-color:#2196F3;
-    color:#ffffff;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-border-radius: 4px;
+.btn_portfolio:focus {
+	background-color: #2196f3;
+	color: #ffffff;
+	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+		0px 2px 2px rgba(0, 0, 0, 0.12);
+	border-radius: 4px;
 }
 .project {
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 2.0;
-        color:#212121;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	color: #212121;
 }
 .p_text {
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 2.0;
-        color:#757575;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	color: #757575;
 }
