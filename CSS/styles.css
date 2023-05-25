@@ -10,38 +10,22 @@
 body {
 	font-family: "Roboto";
 	font-weight: 500;
+	max-width: 1600px;
 }
 .links-top-box {
 	display: flex;
-
-	width: 1600px;
-	height: 80px;
-	left: 0px;
-	top: 0px;
-	flex-basis: auto;
-	box-sizing: border-box;
+	gap:40px;
 }
-.links-top1 {
+menu {
 	display: flex;
-	flex-direction: row;
-
-	width: 53px;
-	height: 16px;
-	left: 453px;
-	top: 32px;
 	letter-spacing: 0.02em;
 	gap: 20px;
+	list-style:none;
 }
-.links-top2 {
 
-	width: 135px;
-	height: 16px;
-	left: 1078px;
-	top: 32px;
-}
 .button-bg {
 	display: flex;
-	margin: 10px;
+	
 }
 .web {
 	color: #2196f3;
@@ -55,13 +39,7 @@ body {
 	font-weight: 700;
 	font-size: 26px;
 	text-decoration: none;
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-start;
-	width: 145px;
-	height: 31px;
-	left: 215px;
-	top: 24px;
+
 }
 .mainlogo2 {
 	color: #ffffff;
@@ -97,11 +75,16 @@ body {
 .kontakt:hover {
 	color: #2196f3;
 }
+.contact {
+	display: flex;
+	padding: 32px 0;
+}
 .mail {
 	font-size: 14px;
 	line-height: 1.14;
 	color: #757575;
 	text-decoration: none;
+
 }
 .mail:hover,
 .mail2:hover {
