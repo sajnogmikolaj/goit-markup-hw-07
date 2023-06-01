@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+  />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,82 +21,91 @@
         rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="./CSS/styles.css" >
+    <link rel="stylesheet" href="CSS/styles.css" >
 </head>
+    <body>
             
                 <header>
                     <div class="links-top-box">
-                <nav>
+                <nav class="nawigacja">
                     <a class="mainlogo" href="./index.html"><span class="web">Web</span>Studio</a>
-                        <menu>
-                            <li><a class="agencja" href="#">Agencja</a></li>
-                            <li><a class="portfolio" href="./portfolio.html">Portfolio</a></li>
-                            <li><a class="kontakt" href="#">Kontakt</a></li>
+                        <menu class="links">
+                            <li><a class="links-site" href="#">Agencja</a></li>
+                            <li><a class="links-site" href="./portfolio.html">Portfolio</a></li>
+                            <li><a class="links-site" href="#">Kontakt</a></li>
                         </menu>
                 </nav>
                     
                     <div class="contact">
                     <a class="mail" href="#">info@devstudio.com</a>
                     <a class="tel" href="tel:48111111111">+48 111 111 111</a>
-                    </div>
+                    </div>  
                     </div>
             </header>
-            <main>
             <article class="bg1">
                 <div class="button-bg">
-                    <h3 class="main_text">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h3>
+                    <h3 class="main_text">EFEKTYWNE ROZWIĄZANIA<br> DLA WASZEGO BIZNESU</h3>
                     <button class="button" type="button">ZAMÓW USŁUGĘ</button>
                 </div>
             </article>
             <article>
-                <div>
-                <h3 class="text_title">Lorem Ipsum</h3>
-                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
-                <h3 class="text_title">Lorem Ipsum</h3>
-                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
-                <h3 class="text_title">Lorem Ipsum</h3>
-                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
-                </div>
+                <ul class="container">
+                    <li><h3 class="text_title">Lorem Ipsum</h3>
+                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p></li>
+                    <li><h3 class="text_title">Lorem Ipsum</h3>
+                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p></li>
+                    <li><h3 class="text_title">Lorem Ipsum</h3>
+                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p></li>
+                    <li><h3 class="text_title">Lorem Ipsum</h3>
+                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p></li>
+                </ul>
             </article>
+            <div class="wwd">
             <h2 class="topic1">Czym się zajmujemy</h2>
-            <img src="./images/tablet.jpg" alt="working on tablet" width="370" height="294">
-            <img src="./images/screen.jpg" alt="screen" width="370" height="294">
-            <img src="./images/notes.jpg" alt="tablet" width="370" height="294">
+            <ul class="images1">
+            <li><img src="./images/tablet.jpg" alt="working on tablet" width="370" height="294"></li>
+            <li><img src="./images/screen.jpg" alt="screen" width="370" height="294"></li>
+            <li><img src="./images/notes.jpg" alt="tablet" width="370" height="294"></li>
+            </ul>
+            </div>
+            <div class="images_members">
             <h2 class="our_team">Nasz zespół</h2>
-            <figure>
+            
+            <figure class="member_bg">
                 <img src="./images/team1.jpg" alt="Jon Doe. Product Designer" width="270" height="260">
                 <figcaption>
                     <h3 class="member_text">Jon Doe</h3>
                     <p class="member_job">Product Designer</p>
                 </figcaption>
             </figure>
-            <figure>
+            <figure class="member_bg">
                 <img src="./images/team2.jpg" alt="Jon Doe, Frontend Developer" width="270" height="260">
                 <figcaption>
                     <h3 class="member_text">Jon Doe</h3>
                     <p class="member_job">Frontend Developer</p>
                 </figcaption>
             </figure>
-            <figure>
+            <figure class="member_bg">
                 <img src="./images/team3.jpg" alt="Jon Doe, Marketing" width="270" height="260">
                 <figcaption>
                     <h3 class="member_text">Jon Doe</h3>
                     <p class="member_job">Marketing</p>
                 </figcaption>
             </figure>
-            <figure>
+            <figure class="member_bg">
                 <img src="./images/team4.jpg" alt="Jon Doe, UI Designer" width="270" height="260">
                 <figcaption>
                     <h3 class="member_text">Jon Doe</h3>
                     <p class="member_job">UI Designer</p>
                 </figcaption>
             </figure>
+        </div>
             </main>
         <footer class="footer">
             <a class="mainlogo2" href="#"><span class="web">Web</span>Studio</a>
             <address class="adress"> m. Warszawa, Aleje Jerozolimskie 21</address>
-            <a class="mail2" href="#">info@example.com</a>
-            <a class="tel2" href="#">+48 111 111 111</a>
+            <a class="quick-contact2" href="#">info@example.com</a>
+            <a class="quick-contact2" href="#">+48 111 111 111</a>
         </footer>
 
 
