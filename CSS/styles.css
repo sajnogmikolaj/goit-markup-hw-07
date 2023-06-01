@@ -14,18 +14,23 @@ body {
 }
 .links-top-box {
 	display: flex;
-	gap:40px;
+	max-height: 80px;
 }
 menu {
 	display: flex;
 	letter-spacing: 0.02em;
-	gap: 20px;
 	list-style:none;
+	gap:46px;
+}
+.nawigacja {
+	display:flex;
+	align-items: center;
 }
 
 .button-bg {
-	display: flex;
-	
+	display:flex;
+	flex-direction:column;
+	align-items:center;
 }
 .web {
 	color: #2196f3;
@@ -39,56 +44,46 @@ menu {
 	font-weight: 700;
 	font-size: 26px;
 	text-decoration: none;
-
+	padding-left: 215px;
+	padding-right: 93px;
 }
 .mainlogo2 {
+	display:block;
 	color: #ffffff;
 	font-family: "Raleway";
 	font-weight: 700;
 	font-size: 26px;
 	text-decoration: none;
+	padding-top:60px;
+	padding-bottom: 20px;
 }
-.agencja {
-	font-size: 14px;
-	line-height: 1.14;
-	text-decoration: none;
-	color: #212121;
-}
-.agencja:hover {
-	color: #2196f3;
-}
-.portfolio {
+.links-site {
 	font-size: 14px;
 	line-height: 1.14;
 	color: #212121;
 	text-decoration: none;
 }
-.portfolio:hover {
+.links-site:hover {
 	color: #2196f3;
 }
-.kontakt {
-	font-size: 14px;
-	line-height: 1.14;
-	color: #212121;
-	text-decoration: none;
+.links {
+	display:flex;
 }
-.kontakt:hover {
-	color: #2196f3;
-}
+
 .contact {
 	display: flex;
-	padding: 32px 0;
+	align-items: center;
+	flex-wrap: nowrap;
+	justify-content:flex-start;
+	width:1600px;
 }
-.mail {
+.mail{
 	font-size: 14px;
 	line-height: 1.14;
 	color: #757575;
 	text-decoration: none;
-
-}
-.mail:hover,
-.mail2:hover {
-	color: #2196f3;
+	padding-left:325px;
+	padding-right:50px;
 }
 .tel {
 	font-size: 14px;
@@ -96,15 +91,27 @@ menu {
 	color: #757575;
 	text-decoration: none;
 }
-.tel:hover,
-.tel2:hover {
-	color: #2196f3;
+.mail:hover,
+.tel:hover {
+	color:#2196f3;
+}
+.quick-contact2:hover {
+	color:#2196f3;
 }
 .main_text {
+	display: flex;
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.14;
 	color: #ffffff;
+	justify-content: center;
+	margin-top:30px;
+}
+.container {
+	display:block;
+	text-align: center;
+	list-style:none;
+
 }
 .button {
 	width: 200px;
@@ -115,13 +122,25 @@ menu {
 	color: #ffffff;
 	border: none;
 	cursor: pointer;
+	margin-bottom:200px;
+	margin-top:30px;
+
 }
 .text_title {
-	font-weight: 700;
+	font-weight: 700;	
 	font-size: 16px;
 	color: #212121;
 }
+.images1 {
+	display:flex;
+	justify-content: center;
+	gap:30px;
+	background-color: #ffffff;
+	padding-bottom:188px;
+	list-style: none;
+}
 .text {
+
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
@@ -132,32 +151,70 @@ menu {
 	font-size: 36px;
 	line-height: 1.16;
 	color: #212121;
+	display:flex;
+	padding-left: 624px;
+	padding-right:624px;
+	align-items: center;
+	justify-content: center;
 }
 .bg1 {
 	background-color: #2f303a;
+	display:flex;
+	flex-direction: column;
+	max-height: 600px;
+	justify-content: center;
+
 }
 .our_team {
+	display: flex;
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.16;
 	color: #212121;
 }
+.images_members {
+	display: flex;
+	background-color: #F5F4FA;
+}
+
 .member_text {
+	display:flex;
 	font-size: 16px;
 	line-height: 1.18;
 	color: #212121;
+	justify-content: center;
 }
 .member_job {
+	display: flex;
+	justify-content: center;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.18;
 	color: #212121;
 }
+.member_bg {
+	background-color: #ffffff;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 0px 0px 4px 4px;
+}
+.our_team_bg {
+	color: #F5F4FA;
+
+}
 .footer {
 	background-color: #2f303a;
+	display:block;
+	padding-left: 215px;
+	padding-bottom: 60px;
+
+}
+.footer2 {
+	background-color:#2f303a;
+	display:block;
 }
 
 .adress {
+	display:block;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
@@ -168,21 +225,13 @@ menu {
 .adress:hover {
 	color: #2196f3;
 }
-.mail2 {
+.quick-contact2 {
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
 	color: #ffffff99;
 	text-decoration: none;
 }
-.tel2 {
-	font-weight: 400;
-	font-size: 14px;
-	line-height: 1.71;
-	color: #ffffff99;
-	text-decoration: none;
-}
-
 .btn_portfolio {
 	font-size: 16px;
 	line-height: 1.62;
@@ -191,6 +240,15 @@ menu {
 	cursor: pointer;
 	font-family: "Roboto";
 	font-weight: 500;
+	width: 91px;
+	height: 38px;
+	margin-top:174px;
+}
+.buttons {
+	display: inline-flex;
+	padding-left:510px;
+	padding-right: 518px;
+	gap:8px;
 }
 
 .btn_portfolio:hover,
@@ -202,14 +260,41 @@ menu {
 	border-radius: 4px;
 }
 .project {
+	display:flex;
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 2;
 	color: #212121;
+	list-style:none;
+	padding-left:24px;
+	padding-right: 24px;
 }
 .p_text {
+	display: flex;
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 2;
 	color: #757575;
+	padding-left:24px;
+	padding-right: 24px;
+	padding-bottom: 20px;
+}
+.projekty {
+	list-style:none;
+	border: 1px solid #EEEEEE;
+	width:370px;
+	height:404px;
+
+
+
+}
+.pr{
+	display: flex;
+	list-style: none;
+	flex-wrap:wrap;
+	justify-content: center;
+	margin-top:50px;
+}
+.line {
+	border: 1px solid #ECECEC;
 }
