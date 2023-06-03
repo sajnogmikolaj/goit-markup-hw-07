@@ -10,11 +10,13 @@
 body {
 	font-family: "Roboto";
 	font-weight: 500;
-	max-width: 1600px;
 }
+
 .links-top-box {
 	display: flex;
 	max-height: 80px;
+	max-width: 1200px;
+	margin:0 auto;
 }
 menu {
 	display: flex;
@@ -25,6 +27,10 @@ menu {
 .nawigacja {
 	display:flex;
 	align-items: center;
+}
+.details {
+	padding-top:94px;
+
 }
 
 .button-bg {
@@ -44,7 +50,6 @@ menu {
 	font-weight: 700;
 	font-size: 26px;
 	text-decoration: none;
-	padding-left: 215px;
 	padding-right: 93px;
 }
 .mainlogo2 {
@@ -54,8 +59,9 @@ menu {
 	font-weight: 700;
 	font-size: 26px;
 	text-decoration: none;
-	padding-top:60px;
 	padding-bottom: 20px;
+	width:145px;
+	height:41px;
 }
 .links-site {
 	font-size: 14px;
@@ -75,7 +81,6 @@ menu {
 	align-items: center;
 	flex-wrap: nowrap;
 	justify-content:flex-start;
-	width:1600px;
 }
 .mail{
 	font-size: 14px;
@@ -99,19 +104,31 @@ menu {
 	color:#2196f3;
 }
 .main_text {
-	display: flex;
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.14;
 	color: #ffffff;
-	justify-content: center;
-	margin-top:30px;
+	margin-top:200px;
+	margin-bottom:40px;
+	text-align:center ;
 }
 .container {
 	display:block;
 	text-align: center;
 	list-style:none;
 
+}
+.details {
+	padding-top:94px;
+	padding-bottom:47px;
+
+}
+.detail-container {
+	display:flex;
+	max-width: 1200px;
+	margin:0 auto;
+	list-style:none;
+	gap:30px;
 }
 .button {
 	width: 200px;
@@ -122,14 +139,14 @@ menu {
 	color: #ffffff;
 	border: none;
 	cursor: pointer;
-	margin-bottom:200px;
-	margin-top:30px;
+	margin-bottom:200px;	
 
 }
 .text_title {
 	font-weight: 700;	
 	font-size: 16px;
 	color: #212121;
+	margin:0 0 10px 0;
 }
 .images1 {
 	display:flex;
@@ -138,24 +155,32 @@ menu {
 	background-color: #ffffff;
 	padding-bottom:188px;
 	list-style: none;
+	margin:0;
+	padding:0;
+
 }
 .text {
-
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
 	color: #757575;
+	margin:0;
 }
 .topic1 {
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.16;
 	color: #212121;
-	display:flex;
-	padding-left: 624px;
-	padding-right:624px;
-	align-items: center;
-	justify-content: center;
+	text-align:center;
+	margin-bottom: 0 50px 0;
+}
+.wwd {
+	padding-top:47px;
+	padding-bottom: 94px;
+}
+.wwd-container {
+	max-width: 1200px;
+	margin:0 auto;
 }
 .bg1 {
 	background-color: #2f303a;
@@ -166,15 +191,28 @@ menu {
 
 }
 .our_team {
-	display: flex;
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.16;
 	color: #212121;
+	text-align: center;
+	margin: 0 0 50px;
 }
 .images_members {
 	display: flex;
 	background-color: #F5F4FA;
+	padding: 94px 0;
+
+}
+.container-team {
+	max-width:1200px;
+	margin:0 auto;
+}
+.members-list {
+	display: flex;
+	justify-content: center;
+	list-style:none;
+	gap:30px;
 }
 
 .member_text {
@@ -185,17 +223,23 @@ menu {
 	justify-content: center;
 }
 .member_job {
-	display: flex;
-	justify-content: center;
+	text-align:center;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.18;
 	color: #212121;
+	margin:0;
 }
 .member_bg {
 	background-color: #ffffff;
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 0px 0px 4px 4px;
+	margin:0;
+
+}
+.images-container {
+	padding-bottom: 30px;
+
 }
 .our_team_bg {
 	color: #F5F4FA;
@@ -204,13 +248,22 @@ menu {
 .footer {
 	background-color: #2f303a;
 	display:block;
-	padding-left: 215px;
-	padding-bottom: 60px;
+	padding-top:60px;
+	padding-bottom: 60px ;
 
 }
 .footer2 {
 	background-color:#2f303a;
 	display:block;
+	padding-bottom:60px;
+
+}
+.footer-container {
+	max-width: 1200px;
+	margin:0 auto;
+	display:flex;
+	flex-direction: column;
+	align-items: start;
 }
 
 .adress {
@@ -221,16 +274,21 @@ menu {
 	color: #ffffff;
 	text-decoration: none;
 	font-style: normal;
+	margin-bottom:9px;
+	cursor:pointer;
 }
 .adress:hover {
 	color: #2196f3;
 }
 .quick-contact2 {
+	display:flex;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
 	color: #ffffff99;
 	text-decoration: none;
+	margin-bottom:9px;
+
 }
 .btn_portfolio {
 	font-size: 16px;
@@ -243,12 +301,15 @@ menu {
 	width: 91px;
 	height: 38px;
 	margin-top:174px;
+	border-radius: 4px;
 }
 .buttons {
 	display: inline-flex;
-	padding-left:510px;
-	padding-right: 518px;
+	margin-left:510px;
+	align-items:center;
 	gap:8px;
+	border-radius: 4px;
+
 }
 
 .btn_portfolio:hover,
@@ -257,7 +318,6 @@ menu {
 	color: #ffffff;
 	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
 		0px 2px 2px rgba(0, 0, 0, 0.12);
-	border-radius: 4px;
 }
 .project {
 	display:flex;
@@ -267,26 +327,28 @@ menu {
 	color: #212121;
 	list-style:none;
 	padding-left:24px;
-	padding-right: 24px;
+	margin:0;
+
 }
 .p_text {
-	display: flex;
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 2;
 	color: #757575;
 	padding-left:24px;
-	padding-right: 24px;
-	padding-bottom: 20px;
+	margin:0;
+
 }
 .projekty {
 	list-style:none;
 	border: 1px solid #EEEEEE;
 	width:370px;
 	height:404px;
+	margin:0;
 
-
-
+}
+.projekty-text {
+	padding:20px 24px 20px 24px;
 }
 .pr{
 	display: flex;
@@ -294,6 +356,8 @@ menu {
 	flex-wrap:wrap;
 	justify-content: center;
 	margin-top:50px;
+	gap:30px;
+	margin-bottom:94px;
 }
 .line {
 	border: 1px solid #ECECEC;
