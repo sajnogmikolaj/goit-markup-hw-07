@@ -2,6 +2,8 @@
 *::before,
 *::after {
 	box-sizing: border-box;
+	margin:0;
+	padding:0;
 }
 :root {
 	--mainFontColor: #212121;
@@ -17,6 +19,8 @@ body {
 	max-height: 80px;
 	max-width: 1200px;
 	margin:0 auto;
+	padding-top: 24px;
+	padding-bottom:25px;
 }
 menu {
 	display: flex;
@@ -60,8 +64,6 @@ menu {
 	font-size: 26px;
 	text-decoration: none;
 	padding-bottom: 20px;
-	width:145px;
-	height:41px;
 }
 .links-site {
 	font-size: 14px;
@@ -87,8 +89,8 @@ menu {
 	line-height: 1.14;
 	color: #757575;
 	text-decoration: none;
-	padding-left:325px;
-	padding-right:50px;
+	margin-left:325px;
+	margin-right:50px;
 }
 .tel {
 	font-size: 14px;
@@ -172,7 +174,7 @@ menu {
 	line-height: 1.16;
 	color: #212121;
 	text-align:center;
-	margin-bottom: 0 50px 0;
+	margin-bottom:50px;
 }
 .wwd {
 	padding-top:47px;
@@ -221,13 +223,15 @@ menu {
 	line-height: 1.18;
 	color: #212121;
 	justify-content: center;
+	padding-top:30px;
+	padding-bottom:10px;
 }
 .member_job {
 	text-align:center;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.18;
-	color: #212121;
+	color: #757575;
 	margin:0;
 }
 .member_bg {
@@ -293,19 +297,20 @@ menu {
 .btn_portfolio {
 	font-size: 16px;
 	line-height: 1.62;
-	color: #000000;
+	color: #212121;
+	font-weight: 500;
 	border: none;
 	cursor: pointer;
 	font-family: "Roboto";
-	font-weight: 500;
-	width: 91px;
+	padding:6px 22px 6px 22px;
 	height: 38px;
 	margin-top:174px;
 	border-radius: 4px;
 }
 .buttons {
-	display: inline-flex;
-	margin-left:510px;
+	display:flex;
+	justify-content: center;
+	flex-direction: row;
 	align-items:center;
 	gap:8px;
 	border-radius: 4px;
