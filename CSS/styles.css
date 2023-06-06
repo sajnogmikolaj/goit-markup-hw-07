@@ -271,7 +271,6 @@ menu {
 	margin:0 auto;
 	display:flex;
 	flex-direction: column;
-	align-items: start;
 }
 
 .adress {
@@ -314,8 +313,6 @@ menu {
 .buttons {
 	display:flex;
 	justify-content: center;
-	flex-direction: row;
-	align-items:center;
 	gap:8px;
 	border-radius: 4px;
 
@@ -351,9 +348,7 @@ menu {
 .projekty {
 	list-style:none;
 	border: 1px solid #EEEEEE;
-	width:370px;
 	height:404px;
-	margin:0;
 
 }
 .projekty-text {
@@ -361,7 +356,6 @@ menu {
 }
 .pr{
 	display: flex;
-	list-style: none;
 	flex-wrap:wrap;
 	justify-content: center;
 	margin-top:50px;
