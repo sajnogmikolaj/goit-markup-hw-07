@@ -12,6 +12,8 @@
 body {
 	font-family: "Roboto";
 	font-weight: 500;
+	max-width:1600px;
+	margin:0 auto;
 }
 
 .links-top-box {
@@ -115,10 +117,13 @@ menu {
 	text-align:center ;
 }
 .container {
-	display:block;
 	text-align: center;
 	list-style:none;
 
+}
+.container1 {
+	max-width: 1200px;
+	margin:0 auto;
 }
 .details {
 	padding-top:94px;
@@ -204,7 +209,6 @@ menu {
 	display: flex;
 	background-color: #F5F4FA;
 	padding: 94px 0;
-
 }
 .container-team {
 	max-width:1200px;
