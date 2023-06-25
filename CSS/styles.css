@@ -38,10 +38,61 @@ menu {
 	padding-top:94px;
 
 }
-.envelope {
-	color:#757575;
+.header-svg {
+	fill:#757575;
+	margin-right:10px;
+
+}
+.social-link {
+	width:44px;
+    height:44px;
+    display: inline-block;
+    padding: 12px;
+    background-color:#FFFFFF;
+}
+.social-link:hover .social-link-icon,
+.social-link:focus .social-link-icon{
+    fill: #FFFFFF;
 }
 
+
+.social-link-icon{
+    fill:#757575;
+}
+.social-link:hover,
+.social-link:focus {
+    border-radius: 50%;
+    cursor: pointer;
+    background-color:#2196F3;
+}
+.header-svg:hover,
+.header-svg:focus {
+	fill:#2196f3; 
+}
+.svg-lorem {
+	background-color: #F5F4FA;
+	border-radius: 4px;
+	width: 270px;
+	height:120px;
+	padding:25px 100px;
+}
+.our-customers{
+    border: 1px solid #AFB1B8;
+    padding:16px 32px;
+    margin:50px 0 94px ;
+}
+.our-customers-flex{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42.19px;
+    letter-spacing: 0.03em;
+    display: flex;
+    fill:#AFB1B8;
+    cursor: pointer;
+    justify-content: space-between;
+    padding: 0;
+	list-style: none;
+}
 .button-bg {
 	display:flex;
 	flex-direction:column;
@@ -125,6 +176,35 @@ menu {
 	list-style:none;
 
 }
+.social-link-footer{
+    width:44px;
+    height:44px;
+    padding: 12px;
+    background-color:rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-link-icon-footer{
+    fill:#FFFFFF;
+}
+.social-link-footer:hover,
+.social-link-footer:focus{
+    border-radius: 50%;
+    cursor: pointer;
+    background-color:#2196F3;
+}
+
+
+.social-link-footer:hover .social-link-icon-footer,
+.social-link-footer:focus .social-link-icon-footer {
+    fill: #FFFFFF;
+}
+.container-our-clients {
+		width: 1200px;
+		margin: 0 auto;
+}
 .container1 {
 	max-width: 1200px;
 	margin:0 auto;
@@ -157,7 +237,7 @@ menu {
 	font-weight: 700;	
 	font-size: 16px;
 	color: #212121;
-	margin:0 0 10px 0;
+	margin:30px 0 10px 0;
 }
 .images1 {
 	display:flex;
@@ -241,6 +321,7 @@ menu {
 	line-height: 1.18;
 	color: #757575;
 	margin:0;
+	margin-bottom:4px;
 }
 .member_bg {
 	background-color: #ffffff;
