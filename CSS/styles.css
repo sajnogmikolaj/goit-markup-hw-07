@@ -43,15 +43,17 @@ menu {
 	margin-right:10px;
 
 }
-.social-link {
+.social-links {
 	width:44px;
     height:44px;
     display: inline-block;
     padding: 12px;
     background-color:#FFFFFF;
+	list-style:none;
+	flex-direction: row;
 }
-.social-link:hover .social-link-icon,
-.social-link:focus .social-link-icon{
+.social-link-li:hover .social-link-icon,
+.social-link-li:focus .social-link-icon{
     fill: #FFFFFF;
 }
 
@@ -59,8 +61,8 @@ menu {
 .social-link-icon{
     fill:#757575;
 }
-.social-link:hover,
-.social-link:focus {
+.social-link-li:hover,
+.social-link-li:focus {
     border-radius: 50%;
     cursor: pointer;
     background-color:#2196F3;
@@ -297,6 +299,7 @@ menu {
 .container-team {
 	max-width:1200px;
 	margin:0 auto;
+	
 }
 .members-list {
 	display: flex;
