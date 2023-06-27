@@ -17,10 +17,9 @@ body {
 }
 
 .links-top-box {
-	display: flex;
 	max-height: 80px;
 	max-width: 1200px;
-	margin:0 auto;
+	margin:0 auto;	
 	padding-top: 24px;
 	padding-bottom:25px;
 }
@@ -72,6 +71,13 @@ menu {
     cursor: pointer;
     background-color:#2196F3;
 }
+.header-box {
+	display: flex;
+	justify-content: space-between;
+	margin:0 auto;
+	margin-right:150px;
+}
+
 .header-svg:hover,
 .header-svg:focus {
 	fill:#2196f3; 
