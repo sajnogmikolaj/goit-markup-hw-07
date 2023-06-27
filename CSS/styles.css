@@ -44,13 +44,13 @@ menu {
 
 }
 .social-links {
-	width:44px;
-    height:44px;
-    display: inline-block;
+	display:flex;
     padding: 12px;
     background-color:#FFFFFF;
 	list-style:none;
-	flex-direction: row;
+	max-width: 202px;
+	margin:0 auto;
+	justify-content: space-between;
 }
 .social-link-li:hover .social-link-icon,
 .social-link-li:focus .social-link-icon{
@@ -60,6 +60,11 @@ menu {
 
 .social-link-icon{
     fill:#757575;
+	width:44px;
+	height: 44px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
 }
 .social-link-li:hover,
 .social-link-li:focus {
@@ -81,7 +86,11 @@ menu {
 .our-customers{
     border: 1px solid #AFB1B8;
     padding:16px 32px;
-    margin:50px 0 94px ;
+}
+.our-customers:hover,
+.our-customers:focus {
+	fill:#2196F3; 
+	border-color:#2196F3;
 }
 .our-customers-flex{
     font-weight: 700;
@@ -206,6 +215,14 @@ menu {
 .container-our-clients {
 		width: 1200px;
 		margin: 0 auto;
+}
+.our_clients {
+	justify-content: center;
+	display: flex;
+	margin:0 auto;
+	margin-top:94px;
+	font-size: 46px;
+	margin-bottom:50px;
 }
 .container1 {
 	max-width: 1200px;
@@ -334,7 +351,6 @@ menu {
 
 }
 .images-container {
-	padding-bottom: 30px;
 
 }
 .our_team_bg {
@@ -346,6 +362,7 @@ menu {
 	display:block;
 	padding-top:60px;
 	padding-bottom: 60px ;
+	margin-top:94px;
 
 }
 .footer2 {
