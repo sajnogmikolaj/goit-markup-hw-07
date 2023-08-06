@@ -92,6 +92,8 @@ menu {
 .our-customers{
     border: 1px solid #AFB1B8;
     padding:16px 32px;
+	justify-content: center;
+	align-items: center;
 }
 .our-customers:hover,
 .our-customers:focus {
@@ -109,6 +111,7 @@ menu {
     justify-content: space-between;
     padding: 0;
 	list-style: none;
+	
 }
 .button-bg {
 	display:flex;
@@ -176,6 +179,10 @@ menu {
 .tel:hover {
 	color:#2196f3;
 }
+.mail:hover svg,
+.tel:hover svg {
+	fill:#2196f3;
+}
 .quick-contact2:hover {
 	color:#2196f3;
 }
@@ -221,6 +228,7 @@ menu {
 .container-our-clients {
 		width: 1200px;
 		margin: 0 auto;
+		padding-bottom:94px;
 }
 .our_clients {
 	justify-content: center;
@@ -365,10 +373,10 @@ menu {
 }
 .footer {
 	background-color: #2f303a;
-	display:block;
-	padding-top:60px;
-	padding-bottom: 60px ;
-	margin-top:94px;
+	display: flex;
+    align-items: center;
+    width: 1600px;
+    margin:0 auto;
 
 }
 .footer2 {
@@ -381,9 +389,13 @@ menu {
 	max-width: 1200px;
 	margin:0 auto;
 	display:flex;
-	flex-direction: column;
+	gap: 70px;
 }
+.footer-scnd {
+	margin-top:72px;
+	margin-left:215px;
 
+}
 .adress {
 	display:block;
 	font-weight: 400;
@@ -408,6 +420,10 @@ menu {
 	margin-bottom:9px;
 
 }
+.footer-thrd {
+	margin-bottom:51px;
+
+}
 .btn_portfolio {
 	font-size: 16px;
 	line-height: 1.62;
@@ -427,7 +443,15 @@ menu {
 	gap:8px;
 	border-radius: 4px;
 }
+.join-us {
+	margin-bottom: 20px;
+	color:#FFFFFF;
+	font-family:"Roboto";
+	font-weight: 700;
+	font-size: 14px;
+	letter-spacing: 0.42px;
 
+}
 .btn_portfolio:hover,
 .btn_portfolio:focus {
 	background-color: #2196f3;
