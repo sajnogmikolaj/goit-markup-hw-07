@@ -455,7 +455,7 @@ ul {
 	font-family: "Roboto";
 	padding:6px 22px 6px 22px;
 	height: 38px;
-	margin-top:174px;
+	margin-top:94px;
 	border-radius: 4px;
 }
 .buttons {
@@ -512,7 +512,7 @@ ul {
 	display: flex;
 	flex-wrap:wrap;
 	justify-content: center;
-	margin-top:50px;
+	margin-top:94px;
 	gap:30px;
 	margin-bottom:94px;
 }
