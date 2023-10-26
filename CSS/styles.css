@@ -45,12 +45,13 @@ svg {
 }
 .social-links {
 	display:flex;
-    padding: 12px;
+	gap:10px;
     background-color:#FFFFFF;
 	list-style:none;
 	max-width: 202px;
 	margin:0 auto;
 	justify-content: space-between;
+	padding-bottom: 30px;
 }
 .social-link-li:hover .social-link-icon,
 .social-link-li:focus .social-link-icon{
@@ -151,9 +152,25 @@ svg {
 	line-height: 1.14;
 	color: #212121;
 	text-decoration: none;
+	transition-property: transform;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .links-site:hover {
 	color: #2196f3;
+	left:0;
+}
+.current {
+	color:#000000;
+	position: relative;
+}
+
+.current:hover, .current::after {
+	content: '';
+	color:#2196F3;
+	width:53px;
+	height:4px;
+
 }
 .links {
 	display:flex;
@@ -222,8 +239,29 @@ svg {
 	display: block;
 	border: 1px solid #EEEEEE;
 }
+.porftolio-overlay {
+	position: relative;
+	overflow: hidden;
+}
+.card-overlay {
+	width:370px;
+	height:300px;
+	background-color: #2196F3;
+	color:#EEEEEE;
+	text-align: justify;
+	position: absolute;
+	left:0px;
+	top:0px;
+	padding:40px 32px;
+	transform: translateY(100%);
+	transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .link-portfolio:hover, 
 .link-portfolio:focus {
+	box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+}
+.link-portfolio:hover .card-overlay {
+	transform: translateY(0);
 	box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 .ul-socials {
