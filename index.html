@@ -36,11 +36,9 @@
                 <a class="links-site current" href="./index.html">Agencja</a>
               </li>
               <li>
-                <a class="links-site current" href="./portfolio.html"
-                  >Portfolio</a
-                >
+                <a class="links-site" href="./portfolio.html">Portfolio</a>
               </li>
-              <li><a class="links-site current" href="#">Kontakt</a></li>
+              <li><a class="links-site" href="#">Kontakt</a></li>
             </menu>
           </div>
         </nav>
@@ -67,7 +65,9 @@
             EFEKTYWNE ROZWIĄZANIA<br />
             DLA WASZEGO BIZNESU
           </h3>
-          <button class="button" type="button">ZAMÓW USŁUGĘ</button>
+          <button class="button" type="button" data-modal-open>
+            ZAMÓW USŁUGĘ
+          </button>
         </div>
       </section>
       <section class="details">
@@ -516,5 +516,15 @@
         </div>
       </div>
     </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <svg class="btn-closing" width="30" height="30">
+          <use href="./images/icons.svg/http://www.w3.org/2000/svg"></use>
+        </svg>
+        <button type="button" class="close-btn" data-modal-close>X</button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
