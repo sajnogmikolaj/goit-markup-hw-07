@@ -155,17 +155,18 @@ svg {
 	transition-property: transform;
 	transition-duration: 250ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	position: relative;
 }
 .links-site:hover {
 	color: #2196f3;
 	left:0;
 }
 .current {
-	color:#000000;
+	color:#2196F3;
 	position: relative;
 }
 
-.current:hover::after {
+.current::after{
 	content: '';
 	background-color:#2196F3;
 	position: absolute;
@@ -240,7 +241,7 @@ svg {
 .link-portfolio {
 	text-decoration: none;
 	display: block;
-	border: 1px solid #EEEEEE;
+	transition: box-shadow 250ms;
 }
 .porftolio-overlay {
 	position: relative;
@@ -547,10 +548,11 @@ img {
 }
 .projekty {
 	list-style:none;
-	height:403px;
 }
 .projekty-text {
 	padding:20px 24px 20px 24px;
+	border: 1px solid #EEEEEE;
+	border-top:0;
 }
 .pr{
 	display: flex;
@@ -562,4 +564,39 @@ img {
 }
 .line {
 	border: 1px solid #ECECEC;
+}
+
+
+.backdrop {
+	position: fixed;
+	left:0;
+	top:0;
+	width: 100%;
+	height: 100%; 
+	background-color: rgba(0,0,0,0.1);
+}
+.modal {
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	width: 528px;
+	min-height: 581px;
+	background-color: #fff;
+}
+.close-btn {
+	position: absolute;
+	top:8px;
+	right:8px;
+	width: 30px;
+	height: 30px;
+	background-color: #fff;
+	border:1px solid rgba(0,0,0,0.1);
+	border-radius: 50%;
+	cursor: pointer;
+}
+.is-hidden {
+	opacity: 0;
+	visibility: hidden;
+	pointer-events: none;
 }
