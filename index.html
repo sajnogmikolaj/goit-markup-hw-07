@@ -59,12 +59,12 @@
       </div>
     </header>
     <main>
-      <section class="bg1">
-        <div class="button-bg">
-          <h3 class="main_text">
+      <section class="bg1 button-bg">
+        <div class="container">
+          <h1 class="main_text">
             EFEKTYWNE ROZWIĄZANIA<br />
             DLA WASZEGO BIZNESU
-          </h3>
+          </h1>
           <button class="button" type="button" data-modal-open>
             ZAMÓW USŁUGĘ
           </button>
@@ -446,73 +446,85 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="footer-scnd">
+      <div class="container footer-container">
+        <div class="footer-div">
+          <a class="mainlogo2" href="index.html"
+            ><span class="web">Web</span>Studio</a
+          >
+          <div>
+            <address class="adress">
+              m. Warszawa, Aleje Jerozolimskie 21
+            </address>
+            <a class="quick-contact2" href="#">info@example.com</a>
+            <a class="quick-contact2" href="#">+48 111 111 111</a>
+          </div>
+        </div>
+        <div>
+          <p class="join-us">DOŁĄCZ DO NAS</p>
+          <ul class="ul-socials">
+            <li>
+              <a
+                href="https://www.instagram.com/"
+                class="social-link-icon-footer social-link-footer"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#icon-instagram-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://twitter.com/"
+                class="social-link-icon-footer social-link-footer"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#icon-twitter-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.facebook.com/"
+                class="social-link-icon-footer social-link-footer"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#icon-facebook-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/"
+                class="social-link-icon-footer social-link-footer"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#icon-linkedin-1"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
         <div class="footer-container">
-          <div>
-            <a class="mainlogo2" href="index.html"
-              ><span class="web">Web</span>Studio</a
-            >
-            <div class="footer-thrd">
-              <address class="adress">
-                m. Warszawa, Aleje Jerozolimskie 21
-              </address>
-              <a class="quick-contact2" href="#">info@example.com</a>
-              <a class="quick-contact2" href="#">+48 111 111 111</a>
-            </div>
-          </div>
-          <div>
-            <h5 class="join-us">DOŁĄCZ DO NAS</h5>
-            <ul class="ul-socials">
-              <li>
-                <a
-                  href="https://www.instagram.com/"
-                  class="social-link-icon-footer social-link-footer"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  <svg width="20" height="20">
-                    <use href="./images/icons.svg#icon-instagram-2"></use>
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://twitter.com/"
-                  class="social-link-icon-footer social-link-footer"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  <svg width="20" height="20">
-                    <use href="./images/icons.svg#icon-twitter-1"></use>
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.facebook.com/"
-                  class="social-link-icon-footer social-link-footer"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  <svg width="20" height="20">
-                    <use href="./images/icons.svg#icon-facebook-1"></use>
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.linkedin.com/"
-                  class="social-link-icon-footer social-link-footer"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  <svg width="20" height="20">
-                    <use href="./images/icons.svg#icon-linkedin-1"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
-          </div>
+          <form class="form-footer">
+            <label class="label-text">
+              Zapisz się do newslettera
+              <input class="email" type="email" name="email" />
+              <button type="button" class="button-footer">
+                ZAPISZ SIĘ
+                <svg width="14" height="14">
+                  <use href="http://www.w3.org/2000/svg"></use>
+                </svg>
+              </button>
+            </label>
+          </form>
         </div>
       </div>
     </footer>
@@ -523,6 +535,42 @@
           <use href="./images/icons.svg/http://www.w3.org/2000/svg"></use>
         </svg>
         <button type="button" class="close-btn" data-modal-close>X</button>
+        <form class="modal-form">
+          <fieldset class="form-group">
+            <legend class="group-title">
+              Zostaw swoje dane w formularzu poniżej
+            </legend>
+            <label class="label-text-modal"
+              >Imię
+              <input class="input-modal" type="text" name="imię" />
+            </label>
+            <label class="label-text-modal"
+              >Telefon
+              <input class="input-modal" type="tel" name="telefon" />
+            </label>
+            <label class="label-text-modal"
+              >Email
+              <input class="input-modal" type="email" name="email" />
+            </label>
+            <label class="label-text-modal"
+              >Komentarz
+              <input class="input-modal-comment" type="text" name="komentarz" />
+            </label>
+          </fieldset>
+        </form>
+        <form class="modal-checkbox">
+          <label class="modal-checkbox">
+            <input
+              class="input-checkbox"
+              type="checkbox"
+              value="agreement"
+              checked
+            />Oświadczam iż akceptuję
+            <span class="links-modal">Regulamin</span> i
+            <span class="links-modal">Politykę Prywatności</span>.
+          </label>
+        </form>
+        <button type="button" class="button-modal">Wyślij</button>
       </div>
     </div>
     <script src="./js/modal.js"></script>
