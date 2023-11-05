@@ -15,11 +15,8 @@ body {
 }
 
 .links-top-box {
-	max-height: 80px;
-	max-width: 1200px;
-	margin:0 auto;	
-	padding-top: 24px;
-	padding-bottom:25px;
+	display: flex;
+	align-items: center;
 }
 menu {
 	display: flex;
@@ -78,10 +75,7 @@ svg {
     background-color:#2196F3;
 }
 .header-box {
-	display: flex;
-	justify-content: space-between;
-	margin:0 auto;
-	margin-right:150px;
+	padding:26px;
 }
 
 .header-svg:hover,
@@ -98,27 +92,22 @@ svg {
 .our-customers{
     border: 1px solid #AFB1B8;
     padding:16px 32px;
-	transition-property: fill;
+	transition-property: fill, border-color;
 		transition-duration: 250ms;
 		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 		position: relative;
-}
+	fill: #AFB1B8;
+	border-radius: 4px;
+} 
 .our-customers:hover,
 .our-customers:focus {
 	fill:#2196F3; 
 	border-color:#2196F3;
 }
 .our-customers-flex{
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42.19px;
     letter-spacing: 0.03em;
     display: flex;
-    fill:#AFB1B8;
-    cursor: pointer;
     gap:30px;
-    padding: 0;
-	list-style: none;
 	margin-top:50px;
 	
 }
@@ -126,6 +115,10 @@ svg {
 	flex-direction:column;
 	align-items:center;
 	background-image: linear-gradient(rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../images/tło-przycisk.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	
 }
 .background-image {
 	background: linear-gradient(rgba47, 48, 58, 0.40);
@@ -152,7 +145,7 @@ svg {
 	font-weight: 700;
 	font-size: 26px;
 	text-decoration: none;
-	padding-bottom: 20px;
+	margin-bottom: 20px;
 }
 .links-site {
 	font-size: 14px;
@@ -185,20 +178,20 @@ svg {
 }
 .links {
 	display:flex;
+	gap:46px;
 }
 
 .contact {
 	display: flex;
 	align-items: center;
-	flex-wrap: nowrap;
-	justify-content:flex-start;
+	margin-left:345px;
+
 }
 .mail{
 	font-size: 14px;
 	line-height: 1.14;
 	color: #757575;
 	text-decoration: none;
-	margin-left:325px;
 	margin-right:50px;
 	display: flex;
 	align-items: center;
@@ -305,16 +298,13 @@ svg {
     fill: #FFFFFF;
 }
 .container-our-clients {
-		width: 1200px;
-		margin: 0 auto;
 		padding-bottom:94px;
+		padding-top:94px;
+
 }
 .our_clients {
-	justify-content: center;
-	display: flex;
-	margin:0 auto;
-	margin-top:94px;
-	font-size: 46px;
+	text-align: center;
+	font-size: 36px;
 }
 .container1 {
 	max-width: 1200px;
@@ -322,7 +312,7 @@ svg {
 }
 .details {
 	padding-top:94px;
-	padding-bottom:47px;
+	padding-bottom:94px;
 
 }
 .detail-container {
@@ -361,6 +351,8 @@ svg {
 }
 ul {
 	list-style: none;
+	margin:0;
+	padding:0;
 }
 .text {
 	font-weight: 400;
@@ -378,10 +370,9 @@ ul {
 	margin-bottom:50px;
 }
 .wwd {
-	padding-top:47px;
 	padding-bottom: 94px;
 }
-.wwd-container {
+.container {
 	max-width: 1200px;
 	margin:0 auto;
 }
@@ -402,7 +393,6 @@ ul {
 	margin: 0 0 50px;
 }
 .images_members {
-	display: flex;
 	background-color: #F5F4FA;
 	padding: 94px 0;
 }
@@ -461,6 +451,10 @@ img {
 }
 .form-footer {
 	display: block;
+	gap:24px;
+}
+.newsletter {
+	margin-left: auto;
 }
 .email {
 	width:358px;
@@ -493,8 +487,8 @@ img {
 			font-style: normal;
 			font-weight: 700;
 			line-height: 30px;
-			/* 187.5% */
 			letter-spacing: 0.96px;
+	margin-left:12px;
 }
 .footer2 {
 	background-color:#2f303a;
@@ -504,6 +498,7 @@ img {
 }
 .footer-container {
 	display:flex;
+	align-items: baseline;
 }
 .footer-scnd {
 	margin-top:72px;
@@ -655,6 +650,7 @@ img {
 		font-weight: 700;
 		line-height: normal;
 		letter-spacing: 0.6px;
+		margin-bottom:30px;
 }
 .label-text-modal {
 	color: #757575;
@@ -664,6 +660,7 @@ img {
 		font-weight: 400;
 		line-height: normal;
 		letter-spacing: 0.12px;
+		margin-left:40px;
 }
 .input-modal {
 	width: 448px;
@@ -671,6 +668,35 @@ img {
 		flex-shrink: 0;
 		border-radius: 4px;
 			border: 1px solid rgba(33, 33, 33, 0.20);
+						margin: 0 40px 28px 40px;
+		background:url(/Tutorial/images/icons.svg#icon-person);
+}
+.input-modal-comment {
+	width: 448px;
+	height: 120px;
+				margin: 0 40px 28px 40px;
+				border-radius: 4px;
+					border: 1px solid rgba(33, 33, 33, 0.20);
+					color: rgba(117, 117, 117, 0.50);
+						font-family: Roboto;
+						font-size: 12px;
+						font-style: normal;
+						font-weight: 400;
+						line-height: normal;
+						letter-spacing: 0.12px;
+}
+.input-checkbox {
+	fill: #212121;
+}
+.links-modal {
+	color: #2196F3;
+		font-family: Roboto;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 24px;
+		letter-spacing: 0.42px;
+		text-decoration-line: underline;
 }
 .modal-checkbox {
 	color: #757575;
@@ -680,6 +706,8 @@ img {
 		font-weight: 400;
 		line-height: 24px;
 		letter-spacing: 0.42px;
+		display:flex;
+		justify-content: center;
 }
 .button-modal {
 	border-radius: 4px;
@@ -689,4 +717,17 @@ img {
 			height: 50px;
 			flex-shrink: 0;
 			color:#fff;
+			border-color:none;
+}
+.form-group {
+	border:none;
+}
+.button-modal-div{
+	display: flex;
+	justify-content: center;
+	border:none;
+	margin:30px 0 40px 0;
+}
+.icon-send {
+	fill:#EEEEEE;
 }
