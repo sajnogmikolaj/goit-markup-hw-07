@@ -116,30 +116,32 @@
         <div class="container">
           <h2 class="topic1">Czym się zajmujemy</h2>
           <ul class="images1">
-            <li>
+            <li class="li-wwd">
               <img
                 src="./images/tablet.jpg"
                 alt="working on tablet"
                 width="370"
                 height="294"
               />
-              <label>aplikacje</label>
+              <p class="text-img">Aplikacje Komputerowe</p>
             </li>
-            <li>
+            <li class="li-wwd">
               <img
                 src="./images/screen.jpg"
                 alt="screen"
                 width="370"
                 height="294"
               />
+              <p class="text-img">Aplikacje Mobilne</p>
             </li>
-            <li>
+            <li class="li-wwd">
               <img
                 src="./images/notes.jpg"
                 alt="tablet"
                 width="370"
                 height="294"
               />
+              <p class="text-img">Rozwiązania Graficzne</p>
             </li>
           </ul>
         </div>
@@ -520,7 +522,7 @@
               <input class="email" type="email" name="email" />
             </label>
             <button type="button" class="button-footer">
-              ZAPISZ SIĘ
+              Zapisz się
               <svg class="icon-send" width="24" height="24">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
@@ -533,7 +535,7 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="close-btn" data-modal-close>
-          <svg class="btn-closing" width="18" height="18">
+          <svg class="btn-closing" width="10" height="10">
             <use href="./images/icons.svg#icon-Vector"></use>
           </svg>
         </button>
@@ -544,15 +546,30 @@
             </legend>
             <label class="label-text-modal"
               >Imię
-              <input class="input-modal" type="text" name="imię" />
+              <div class="div-input">
+                <input class="input-modal" type="text" name="imię" />
+                <svg class="svg-input" width="18" height="18px">
+                  <use href="./images/icons.svg#icon-person"></use>
+                </svg>
+              </div>
             </label>
             <label class="label-text-modal"
               >Telefon
-              <input class="input-modal" type="tel" name="telefon" />
+              <div class="div-input">
+                <input class="input-modal" type="tel" name="telefon" />
+                <svg class="svg-input" width="18px" height="18px">
+                  <use href="./images/icons.svg#icon-phone"></use>
+                </svg>
+              </div>
             </label>
             <label class="label-text-modal"
               >Email
-              <input class="input-modal" type="email" name="email" />
+              <div class="div-input">
+                <input class="input-modal" type="email" name="email" />
+                <svg class="svg-input" width="18px" height="18px">
+                  <use href="./images/icons.svg#icon-email"></use>
+                </svg>
+              </div>
             </label>
             <label class="label-text-modal"
               >Komentarz
@@ -574,7 +591,7 @@
               checked
             />Oświadczam iż akceptuję
             <span class="links-modal"> Regulamin </span> i
-            <span class="links-modal"> Politykę Prywatności </span>.
+            <span class="links-modal"> Politykę Prywatności. </span>
           </label>
         </form>
         <div class="button-modal-div">
