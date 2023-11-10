@@ -494,21 +494,37 @@ img {
 	min-width: 200px;
 	height: 50px;
 	border-radius: 4px;
-		background: #2196F3;
-		box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-		color: #FFF;
-			text-align: center;
-			font-family: Roboto;
-			font-size: 16px;
-			font-style: normal;
-			font-weight: 700;
-			line-height: 30px;
-			letter-spacing: 0.03em;
+	background: #2196F3;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+	color: #FFF;
+	text-align: center;
+	font-family: Roboto;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 30px;
+	letter-spacing: 0.03em;
 	margin-left:12px;
 	display: inline-flex;
 	align-items: center;
 	gap:21px;
 	padding:10px 13px 10px 42px;
+	border:none;
+}
+.modal-checkbox:checked+.modal-checkbox-text span{	
+	background-color: #2196F3;
+	fill:#EEEEEE;
+	border:none;
+}
+.modal-check-icon {
+	display: inline-flex;
+	width: 16px;
+	height: 16px;
+	border-radius: 2px;
+	margin-right: 8px;
+	align-items: center;
+	justify-content: center;
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2,	1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer2 {
 	background-color:#2f303a;
@@ -694,13 +710,15 @@ img {
 	margin-top:4px;
 	padding: 12px 0 12px 42px;
 }
-.input-modal:focus,
+.input-modal:focus+.svg-input,
 .input-modal-comment:focus {
-	border:1px solid #2196f3;
-}
-.svg-input:focus {
+	border-color:#2196F3;
 	fill:#2196F3;
 }
+.input-modal:focus {
+	border-color: #2196F3;
+}
+
 :focus { 
 	outline: none;
 }
@@ -779,5 +797,5 @@ img {
 	position: absolute;
 	top:50%;
 	transform: translateY(-50%);
-	right:93%;
+	left:15px;
 }
