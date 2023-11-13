@@ -548,6 +548,9 @@ img {
 .check-icon {
 	width:16px;
 	height: 15px;
+	fill:#EEEEEE;
+	background-color: #2196F3;
+	
 }
 .footer-container {
 	display:flex;
