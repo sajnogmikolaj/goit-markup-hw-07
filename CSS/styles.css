@@ -13,6 +13,21 @@ body {
 	font-family: "Roboto";
 	font-weight: 500;
 }
+@media (max-width:480px) {
+	.bg1-button-bg {
+			display: flex;
+			padding: 112px 0;
+			background-color: var(--navyblue-color);
+			margin: 0 auto;
+			background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+					rgba(46, 47, 66, 0.7)),
+				url(../images/Bg.jpg);
+			max-width: 767px;
+			background-position: center;
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+}
 
 .links-top-box {
 	display: flex;
@@ -550,7 +565,7 @@ img {
 	height: 15px;
 	fill:#EEEEEE;
 	background-color: #2196F3;
-	
+
 }
 .footer-container {
 	display:flex;
