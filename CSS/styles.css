@@ -173,7 +173,6 @@ menu {
 }
 
 .header-box {
-	padding: 26px;
 }
 
 .header-svg:hover,
@@ -266,6 +265,8 @@ menu {
 	transition-duration: 250ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 	position: relative;
+	padding:26px 0; 
+	display: inline-block;
 }
 
 .links-site:hover {
@@ -286,7 +287,7 @@ menu {
 	height: 4px;
 	left: 0;
 	border-radius: 2px;
-	top: 44px;
+	bottom:-1px;
 }
 
 .links {
@@ -498,7 +499,6 @@ ul {
 	font-size: 14px;
 	line-height: 1.71;
 	color: #757575;
-	margin: 0 15px;
 }
 
 .topic1 {
@@ -706,8 +706,10 @@ img {
 }
 
 .footer-container {
+	display: flex;
 	align-items: baseline;
 	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .footer-scnd {
@@ -716,7 +718,7 @@ img {
 }
 
 .footer-mobile {
-	width: 100%;
+
 }
 
 .footer-div {
@@ -1021,10 +1023,27 @@ img {
 	.nawigacja {
 		max-width: 768px;
 	}
+	.svg-lorem {
+		width: 354px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.svg-lorem-li {
+		width: 354px;
+		}
 	.links{ 
 		display: flex;
 		gap:60px;
 	}
+	.text_title{
+		justify-content: start;
+	}
+	.footer-container{
+
+	}
+	.footer-mobile {
+		margin-left: 144px;
+	};
 
 	img {
 		width:354px;
@@ -1045,7 +1064,10 @@ img {
 	}
 	.contact {
 		display: flex;
-		justify-content: space-between;
+		margin-left:101px;
+		gap:10px;
+		flex-direction: column;
+		align-items: baseline;
 	}
 
 }
@@ -1055,20 +1077,32 @@ img {
 	}
 
 	img {
-		width: 270px;
+		width: 370px;
 	}
-	.svg-lorem {
-		width: 354px;
-		height: 120px;
-		flex-wrap: wrap;
-	}
-
 	.container1 {
 		width: 1200px;
+	}
+	.members-list {
+		flex-wrap: nowrap;
+	}
+	.our-customers-flex{
+		flex-wrap: nowrap;
 	}
 
 	.detail-container {
 		width: 1200px;
 		flex-wrap: nowrap;
+	}
+	.button-bg {
+		flex-direction: column;
+			align-items: center;
+			background-image: linear-gradient(rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../images/tło-przycisk.jpg);
+			background-size: cover;
+			background-repeat: no-repeat;
+			width: 1600px;
+			height: 600px;
+	}
+	.wwd {
+		display: flex;
 	}
 }
