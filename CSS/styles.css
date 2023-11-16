@@ -970,8 +970,9 @@ img {
 			display: flex;
 			align-items: center;
 			justify-content: center;
-	
+
 			margin: 0;
+			margin-left: 250px;
 			padding: 0;
 			background-color: transparent;
 			cursor: pointer;
@@ -987,8 +988,8 @@ img {
 					position: fixed;
 					top: 0;
 					left: 0;
-					width: 100vw;
-					height: 100vh;
+					width: 100%;
+					height: 100%;
 					padding: 32px;
 					background-color: #fff;
 					z-index: 999;
@@ -1128,12 +1129,13 @@ img {
 		gap: 30px;
 		margin-top: 50px;
 		flex-wrap: wrap;
+		justify-content: center;
 	}
 
 	.button-bg {
 		flex-direction: column;
 		align-items: center;
-		background-image: linear-gradient(rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../images/tło-przycisk.jpg);
+		background-image: linear-gradient(rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../images/button-bg-1.jpg);
 		background-size: cover;
 		background-repeat: no-repeat;
 
@@ -1158,7 +1160,7 @@ img {
 		font-weight: 700;
 		font-size: 26px;
 		text-decoration: none;
-		padding-right: 93px;
+		width: 134px;
 	}
 
 	.mainlogo2 {
@@ -1213,8 +1215,6 @@ img {
 	.contact {
 		display: flex;
 		align-items: center;
-		margin-left: 345px;
-
 	}
 
 	.mail {
@@ -1369,7 +1369,7 @@ img {
 
 	.detail-container {
 		display: flex;
-		max-width: 1200px;
+		max-width: 480px;
 		margin: 0 auto;
 		list-style: none;
 		gap: 30px;
@@ -1448,6 +1448,8 @@ img {
 		margin: 0 auto;
 		padding: 200px 0;
 		text-align: center;
+		width: 480px;
+		height: 400px;
 	}
 
 	.our_team {
