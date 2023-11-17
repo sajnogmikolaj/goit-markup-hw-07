@@ -305,7 +305,6 @@ menu {
 	line-height: 1.14;
 	color: #757575;
 	text-decoration: none;
-	margin-right: 50px;
 	display: flex;
 	align-items: center;
 	transition-property: color;
@@ -547,7 +546,7 @@ img {
 	display: block;
 	max-width: 100%;
 	height: auto;
-	width: 450px;
+	width: 354px;
 }
 
 .members-list {
@@ -904,7 +903,7 @@ img {
 	border-radius: 4px;
 	border: 1px solid rgba(33, 33, 33, 0.2);
 	outline: none;
-	background: url(/Tutorial/images/icons.svg#icon-person);
+	background: url(../images/icons.svg#icon-person);
 	margin-top: 4px;
 	padding: 12px 0 12px 42px;
 }
@@ -1051,7 +1050,7 @@ img {
 	}
 	.button-bg {
 		background-image:linear-gradient(rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)),
-			url(/Tutorial/images/button-bg-tab.jpg);
+			url(../images/button-bg-tab.jpg);
 	}
 	.container1 {
 		width: 768px;
@@ -1122,17 +1121,15 @@ img {
 			background-image: linear-gradient(rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../images/tło-przycisk.jpg);
 			background-size: cover;
 			background-repeat: no-repeat;
-		padding:200px 452px 280px 452px; 
+		padding:200px 0; 
 		max-width: 1600px;
 	}
 	.button {
-		margin-right:500px;
 	}
 	.wwd {
 		display: flex;
 	}
 	.main_text {
-		width: 696px;
 		height: 120px;
 		font-weight: 900;
 		font-size: 44px;
@@ -1145,9 +1142,30 @@ img {
 		align-items: center;
 		margin-left: 345px;
 		flex-direction: row;
+		gap:30px;
 	}
 	.footer-mobile {
 		margin-left:70px;
 		margin-right:78px;
+	}
+}
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+	.bg1-button-bg {
+		background-image:linear-gradient(rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)),
+			url(../images/tło-przycisk@2x.jpg) ;
+	}
+	.member-reso-1 {
+		background-image:url(../images/team1@2x.jpg)
+	}
+	.member-reso-2 {
+		background-image: url(../images/team2@2x.jpg);
+	}
+	.member-reso-3 {
+		background-image: url(../images/team3@2x.jpg);
+	}
+	.member-reso-4 {
+		background-image: url(../images/team4@2x.jpg);
 	}
 }
