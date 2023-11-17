@@ -749,8 +749,6 @@ img {
 	line-height: 1.71;
 	color: #ffffff99;
 	text-decoration: none;
-	margin: 0 124px 8px 124px;
-	justify-content: center;
 }
 .btn-closing {
 	fill:#000000;
@@ -1017,6 +1015,9 @@ img {
 	.container {
 		width: 768px;
 	}
+	.mainlogo {
+		margin-right:83px;
+	}
 	.menu-toggle{
 		display: none;
 	}
@@ -1048,7 +1049,10 @@ img {
 	img {
 		width:354px;
 	}
-
+	.button-bg {
+		background-image:linear-gradient(rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)),
+			url(/Tutorial/images/button-bg-tab.jpg);
+	}
 	.container1 {
 		width: 768px;
 	}
@@ -1075,12 +1079,26 @@ img {
 	.container {
 		width: 1200px;
 	}
+	.email {
+		width: 358px;
+	}
+	.form-footer {
+		flex-direction: row;
+	}
+	.join-us {
+		text-align: start;
+	}
 
 	img {
 		width: 370px;
 	}
 	.container1 {
 		width: 1200px;
+	}
+	.footer-div {
+		display: flex;
+		flex-direction: column;
+		align-items: start;
 	}
 	.members-list {
 		flex-wrap: nowrap;
@@ -1093,16 +1111,43 @@ img {
 		width: 1200px;
 		flex-wrap: nowrap;
 	}
+	.tel {
+		display: flex;
+		width: 126px;
+	}
 	.button-bg {
+		display: flex;
 		flex-direction: column;
 			align-items: center;
 			background-image: linear-gradient(rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../images/tło-przycisk.jpg);
 			background-size: cover;
 			background-repeat: no-repeat;
-			width: 1600px;
-			height: 600px;
+		padding:200px 452px 280px 452px; 
+		max-width: 1600px;
+	}
+	.button {
+		margin-right:500px;
 	}
 	.wwd {
 		display: flex;
+	}
+	.main_text {
+		width: 696px;
+		height: 120px;
+		font-weight: 900;
+		font-size: 44px;
+	}
+	.svg-lorem {
+		width: 270px;
+	}
+	.contact {
+		display: flex;
+		align-items: center;
+		margin-left: 345px;
+		flex-direction: row;
+	}
+	.footer-mobile {
+		margin-left:70px;
+		margin-right:78px;
 	}
 }
