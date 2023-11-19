@@ -172,8 +172,7 @@ menu {
 	background-color: #2196f3;
 }
 
-.header-box {
-}
+
 
 .header-svg:hover,
 .header-svg:focus {
@@ -585,7 +584,6 @@ img {
 	margin: 0;
 }
 
-.images-container {}
 
 .our_team_bg {
 	color: #f5f4fa;
@@ -603,7 +601,7 @@ img {
 	align-items: center;
 }
 
-.newsletter {}
+
 
 .li-wwd {
 	position: relative;
@@ -716,9 +714,7 @@ img {
 	margin-left: 215px;
 }
 
-.footer-mobile {
 
-}
 
 .footer-div {
 	margin-bottom: 60px;
@@ -1038,9 +1034,7 @@ img {
 	.text_title{
 		justify-content: start;
 	}
-	.footer-container{
 
-	}
 	.footer-mobile {
 		margin-left: 144px;
 	};
@@ -1124,8 +1118,6 @@ img {
 		padding:200px 0; 
 		max-width: 1600px;
 	}
-	.button {
-	}
 	.wwd {
 		display: flex;
 	}
@@ -1168,4 +1160,17 @@ img {
 	.member-reso-4 {
 		background-image: url(../images/team4@2x.jpg);
 	}
+}
+@media screen and (max-width:480px){
+	.footer {
+		width: 495px;
+	}
+	.images_members{
+		width: 495px;
+	}
+	.bg1-button-bg{
+		
+	}
+	
+
 }
